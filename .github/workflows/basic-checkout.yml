@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       #Step 1 Checkout repository
-      - name:Checkout-repository
+      - name: Checkout-repository
         uses: actions/checkout@4
 
       #Step 2: List repository conten
