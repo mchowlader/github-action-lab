@@ -35,4 +35,4 @@ jobs:
     CUSTOME_MESSAGE: "Hello from GitHub Action!"
 
     -name: Display custome message
-     run: echo "$CUSTOME_MESSAGE" 
+    run: echo "$CUSTOME_MESSAGE" 
