@@ -1,0 +1,15 @@
+name: Basic Checkout Lab
+
+#Trigger workflow on push to the main branch
+on: 
+  push:
+    branch:
+      -main
+
+jobs:
+  basic-checkout:
+    runs-on: ubuntu-latest
+      steps: 
+        #Step 1 Checkout repository
+        -name: checkout-repository
+        user: actions/checkout@4
