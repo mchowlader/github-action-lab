@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       #Step 1 Checkout repository
-      - name: checkout-repository
-        user: actions/checkout@4
+      - name:Checkout-repository
+        uses: actions/checkout@4
 
       #Step 2: List repository conten
       - name: list files
@@ -28,6 +28,6 @@ jobs:
       #Step 4: Check software version
       - name: Check versions
         run: |
-        echo "Node version: $(node --version)"
-        echo "Python version: $(python --version)"
-        echo "Git version: $(git --version)"
+          echo "Node version: $(node --version)"
+          echo "Python version: $(python --version)"
+          echo "Git version: $(git --version)"
