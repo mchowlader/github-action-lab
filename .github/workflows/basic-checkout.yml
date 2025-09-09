@@ -31,3 +31,8 @@ jobs:
           echo "Node version: $(node --version)"
           echo "Python version: $(python --version)"
           echo "Git version: $(git --version)"
+  env:
+    CUSTOME_MESSAGE: "Hello from GitHub Action!"
+
+    -name: Display custome message
+     run: echo "$CUSTOME_MESSAGE" 
